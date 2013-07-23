@@ -3,11 +3,10 @@ var express = require('express');
 var app = express();
 app.use(express.logger());
 
-var string = fs.readFile('index.html', 'utf8');
-var buffer = new Buffer(string,"utf-8");
+var string = fs.readFileSync('index.html', 'utf8');
 
 app.get('/', function(request, response) {
-  response.send(buffer.toString());
+  response.send(string);
 });
 
 var port = process.env.PORT || 5000;
