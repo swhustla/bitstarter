@@ -52,7 +52,7 @@ return contStr;
   }
 });
 }; 
-};
+
 
 var assertUrlExists = function(inurl) {
     var instrUrl = inurl.toString();
