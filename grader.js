@@ -73,9 +73,9 @@ var loadChecks = function(checksfile) {
 
 var checkHtmlFile = function(urladdress, htmlfile, checksfile) {
     if(!(urladdress.length > 0)){
-    $ = cheerioHtmlFile(htmlfile);
-	else    
-    $ = contStr(urladdress);
+	$ = cheerioHtmlFile(htmlfile);
+    } else {    
+	$ = contStr(urladdress);
     }
     var checks = loadChecks(checksfile).sort();
     var out = {};
