@@ -47,8 +47,8 @@ var contStr = function(urlIn) {
     // this.retry(5000); // try again after 5 sec
 return null;
   } else {
-    contStr = result.toString();
-return contStr;
+    contStrOut = result.toString();
+return contStrOut;
   }
 });
 }; 
