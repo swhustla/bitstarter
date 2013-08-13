@@ -6,52 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome.css">
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" 
+          rel="stylesheet" type="text/css">
     <style type="text/css">
     
-    */ Large Desktop */
-    
-    @media (min-width: 980px) {
-    body {
-    padding-top: 60px;
-    }
-    .linediv-l {
-    border-right: 1px white solid;
-    }
-    .linediv-r {
-    border-left: 1px white solid;
-    }
-    
-    }
-    
-      body {
-      padding-top: 20px;
-      padding-bottom: 40px;
+         /* Large desktop */
+      @media (min-width: 980px) { 
+        body {
+         padding-top: 60px;
+        }
+       .linediv-l {
+         border-right: 1px white solid;
+        }
+       .linediv-r {
+         border-left: 1px white solid;
+       }
       }
-      .container {
-      width: 960px;
+
+  
+
+      /* All form factors */
+
+      /* Main body and headings */
+      body{
+        font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      }
+      .heading, .subheading {
+        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+        text-align: center;
       }
       p.lead {
-     padding-top: 15px;
+        padding-top: 1.5%;
+        font-size: 24px;
+        line-height: 30px;
       }
-      .navigation, .pitch, .section1, .section2, .faq, .footer {
-      padding: 10px 0px 10px 0px;
+      p {
+        font-size: 18px;
+        line-height: 24px;
       }
-      .video, .thermometer, .order, .social {
-      border: 1px dotted;
-      text-align: center;
-      }
-      .video {
-      /* Internal borders have 1px width, thus need to add 4 x 1px to 120px. */
-      height: 124px;
-      line-height: 124px;
-      }
-      .thermometer, .order, .social {
-      /* line-height to vertically center: http://phrogz.net/css/vertical-align/index.html */
-      height: 40px;
-      line-height: 40px;
-      }
-      div.row {
-      border: 1px solid;
+
+    
+      .footer a {
+        color: #ccccff;
       }
     </style>
   </head>
